@@ -47,5 +47,5 @@ while True:
         print("Exiting the program. Goodbye!")
         exit()
     else:
-        print("SIKE, Thats The Wrong Number OHHHHHHHHHHHHHHHHH")
+        print("SIKE, Thats The Wrong Number OHHHHHHHHHHHHHHHHH(Invalid Selection)")
         time.sleep(4)
