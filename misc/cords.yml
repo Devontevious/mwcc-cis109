@@ -1,0 +1,28 @@
+info:
+  name: cords
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: https://nominatim.openstreetmap.org/search?q=gardner, MA&format=json&limit=1
+  headers:
+    - name: User-Agent
+      value: MWCC-HARTFORD
+  params:
+    - name: q
+      value: gardner, MA
+      type: query
+    - name: format
+      value: json
+      type: query
+    - name: limit
+      value: "1"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
